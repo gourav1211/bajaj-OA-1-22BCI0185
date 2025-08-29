@@ -56,13 +56,14 @@ bajaj-oa-1/
        user_id: "john_doe_17091999" // format: firstname_lastname_ddmmyyyy
    };
    ```
-
+   - Currently The File has my details for easy identification
 4. **Start the server**
    ```bash
    npm start
    # or for development
    npm run dev
    ```
+   Also hosted on https://bajaj-oa-1-22-bci-0185.vercel.app
 
 5. **Server will run on:**
    - Local: `http://localhost:3000`
@@ -123,18 +124,7 @@ curl -X POST http://localhost:3000/bfhl \
 
 ## 🚢 Deployment
 
-### Vercel (Recommended)
-
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run: `vercel`
-3. Follow the prompts
-4. Your API will be available at: `https://your-project.vercel.app/bfhl`
-
-### Other Platforms
-
-- **Railway**: Connect GitHub repo and deploy
-- **Render**: Connect GitHub repo and deploy  
-- **Heroku**: Use git deployment
+- It is currently deployed in Vercel at https://bajaj-oa-1-22-bci-0185.vercel.app 
 
 ## 🔧 Environment Variables
 
@@ -152,10 +142,3 @@ curl -X POST http://localhost:3000/bfhl \
 ✅ Proper error handling  
 ✅ Ready for deployment  
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes  
-4. Push to the branch
-5. Open a Pull Request

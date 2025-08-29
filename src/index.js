@@ -47,7 +47,7 @@ app.use(bfhlRoutes);
 app.use((req, res) => {
     res.status(404).json({
         error: 'Route not found',
-        message: 'The requested endpoint does not exist'
+        message: 'The requested endpoint/method does not exist'
     });
 });
 

@@ -141,11 +141,3 @@ Build and host a REST API that:
 
 ---
 
-<!-- ✅ With this plan, Copilot can scaffold:
-
-* `index.js` with Express boilerplate.
-* Route `/bfhl` handler.
-* Utility functions: `isNumeric()`, `isAlphabet()`, `formatConcatString()`.
-* Deployment configs (`vercel.json` / `Procfile` if needed). -->
-
----
